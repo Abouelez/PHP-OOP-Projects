@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.header-nav {
+  padding: 15px;
+  background-color: #2196f3;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+}
+
+.header-nav ul li {
+  list-style-type: none;
+}
+
+.header-nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+.header-nav .btn {
+  padding: 5px 15px;
+  background-color: #fff;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-nav .btn:active {
+  transform: scale(0.97);
+}
+
+.form-container {
+  width: 50%;
+  margin: 50px auto;
+}
+.content {
+  width: 90%;
+  margin: 50px auto;
+  text-align: center;
+  line-height: 2.5;
+  font-size: 100px;
+}
